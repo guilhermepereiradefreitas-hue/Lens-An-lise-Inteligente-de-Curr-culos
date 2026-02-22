@@ -20,7 +20,7 @@ ${jobDesc.substring(0, 2000)}
 Responda APENAS com JSON válido, sem markdown, sem texto extra.`;
 
   const response = await ai.models.generateContent({
-    model: "gemini-3.1-pro-preview",
+    model: "gemini-3-flash-preview",
     contents: prompt,
     config: {
       responseMimeType: "application/json",
