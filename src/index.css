@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+@theme {
+  --font-fraunces: "Fraunces", serif;
+  --font-syne: "Syne", sans-serif;
+  --font-mono: "IBM Plex Mono", monospace;
+
+  --color-lens-bg: #0d0d0f;
+  --color-lens-surface: #141416;
+  --color-lens-surface2: #1c1c20;
+  --color-lens-border: #2a2a30;
+  --color-lens-border2: #38383f;
+  --color-lens-text: #e8e6e0;
+  --color-lens-muted: #6b6b75;
+  --color-lens-accent: #e8c547;
+  --color-lens-accent2: #4ecb8d;
+  --color-lens-danger: #e85447;
+  --color-lens-maybe: #e8944a;
+}
+
+@layer base {
+  body {
+    background-color: var(--color-lens-bg);
+    color: var(--color-lens-text);
+    font-family: var(--font-syne);
+  }
+}
